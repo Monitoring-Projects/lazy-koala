@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	lazykoalav1alpha1 "github.com/MrSupiri/LazyKoala/api/v1alpha1"
-	"github.com/MrSupiri/LazyKoala/controllers"
+	lazykoalav1alpha1 "github.com/Monitoring-Projects/LazyKoala/api/v1alpha1"
+	"github.com/Monitoring-Projects/LazyKoala/controllers"
 	//+kubebuilder:scaffold:imports
 )
 

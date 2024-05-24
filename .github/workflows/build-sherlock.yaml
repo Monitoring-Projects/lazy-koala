@@ -8,7 +8,7 @@ on:
       - 'sherlock/**'
 
 env:
-  IMAGE_NAME: ghcr.io/mrsupiri/lazy-koala/sherlock
+  IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/sherlock
   DOCKER_BUILDKIT: 1
 
 jobs:

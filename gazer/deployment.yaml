@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: gazer
-          image: ghcr.io/mrsupiri/lazy-koala/gazer:latest
+          image: ghcr.io/Monitoring-Projects/lazy-koala/gazer:latest
           ports:
             - containerPort: 8000
               name: metrics
@@ -84,7 +84,7 @@ spec:
       serviceAccountName: gazer
       initContainers:
         - name: init-headers
-          image: ghcr.io/mrsupiri/lazy-koala/gazer:init
+          image: ghcr.io/Monitoring-Projects/lazy-koala/gazer:init
           imagePullPolicy: IfNotPresent
           securityContext:
             privileged: true

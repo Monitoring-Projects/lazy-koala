@@ -18,7 +18,7 @@ spec:
       containers:
         - name: sherlock
           imagePullPolicy: Always
-          image: ghcr.io/mrsupiri/lazy-koala/sherlock:latest
+          image: ghcr.io/Monitoring-Projects/lazy-koala/sherlock:latest
           ports:
             - containerPort: 9898
               name: metrics

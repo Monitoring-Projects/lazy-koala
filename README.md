@@ -5,9 +5,9 @@ Lazy Koala is a lightweight framework for root cause analysis in distributed sys
 # Usage
 
 ```sh
-git clone https://github.com/MrSupiri/lazy-koala
-cd charts
-helm install lazy-koala --generate-name -n lazy-koala --create-namespace
+git clone https://github.com/Monitoring-Projects/lazy-koala
+cd lazy-koala/charts
+helm install lazy-koala -n lazy-koala --create-namespace .
 ```
 
 ## Architecture

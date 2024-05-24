@@ -18,7 +18,7 @@ spec:
         - name: inspector
           command: ["inspector"]
           imagePullPolicy: Always
-          image: ghcr.io/mrsupiri/lazy-koala/inspector:latest
+          image: ghcr.io/Monitoring-Projects/lazy-koala/inspector:latest
           ports:
             - containerPort: 8090
               name: http
