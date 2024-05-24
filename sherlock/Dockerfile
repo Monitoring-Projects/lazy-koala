@@ -1,5 +1,5 @@
 # Build the binary
-FROM ekidd/rust-musl-builder as builder
+FROM  ghcr.io/dreamstock/rust-musl-builder/rust-musl-builder:1.78.0-llvm-cov as builder
 WORKDIR /sherlock
 USER root
 
