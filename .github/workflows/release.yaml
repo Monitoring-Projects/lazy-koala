@@ -6,10 +6,10 @@ on:
       - v*
 
 env:
-  CONTROLLER_IMAGE_NAME: ghcr.io/mrsupiri/lazy-koala/controller
-  GAZER_IMAGE_NAME: ghcr.io/mrsupiri/lazy-koala/gazer
-  INSPECTOR_IMAGE_NAME: ghcr.io/mrsupiri/lazy-koala/inspector
-  SHERLOCK_IMAGE_NAME: ghcr.io/mrsupiri/lazy-koala/sherlock
+  CONTROLLER_IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/controller
+  GAZER_IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/gazer
+  INSPECTOR_IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/inspector
+  SHERLOCK_IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/sherlock
   DOCKER_BUILDKIT: 1
 
 jobs:

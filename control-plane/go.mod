@@ -1,4 +1,4 @@
-module github.com/MrSupiri/LazyKoala
+module github.com/Monitoring-Projects/LazyKoala
 
 go 1.17
 
