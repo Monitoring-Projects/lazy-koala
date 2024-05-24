@@ -9,7 +9,7 @@ on:
       - 'ui/**'
 
 env:
-  IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/inspector
+  IMAGE_NAME: ghcr.io/monitoring-projects/lazy-koala/inspector
   DOCKER_BUILDKIT: 1
 
 jobs:

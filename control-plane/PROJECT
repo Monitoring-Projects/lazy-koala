@@ -2,7 +2,7 @@ domain: isala.me
 layout:
 - go.kubebuilder.io/v3
 projectName: control-plane-2
-repo: github.com/Monitoring-Projects/LazyKoala
+repo: github.com/monitoring-projects/LazyKoala
 resources:
 - api:
     crdVersion: v1
@@ -11,6 +11,6 @@ resources:
   domain: isala.me
   group: lazykoala
   kind: Inspector
-  path: github.com/Monitoring-Projects/LazyKoala/api/v1alpha1
+  path: github.com/monitoring-projects/LazyKoala/api/v1alpha1
   version: v1alpha1
 version: "3"

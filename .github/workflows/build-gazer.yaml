@@ -8,7 +8,7 @@ on:
       - 'gazer/**'
 
 env:
-  IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/gazer
+  IMAGE_NAME: ghcr.io/monitoring-projects/lazy-koala/gazer
   DOCKER_BUILDKIT: 1
 
 jobs:

@@ -35,7 +35,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	lazykoalav1alpha1 "github.com/Monitoring-Projects/LazyKoala/api/v1alpha1"
+	lazykoalav1alpha1 "github.com/monitoring-projects/LazyKoala/api/v1alpha1"
 )
 
 // InspectorReconciler reconciles a Inspector object

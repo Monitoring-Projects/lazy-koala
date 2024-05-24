@@ -5,7 +5,7 @@
 operator:
   create: true
   image:
-    repository: ghcr.io/Monitoring-Projects/lazy-koala/controller
+    repository: ghcr.io/monitoring-projects/lazy-koala/controller
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"
@@ -48,13 +48,13 @@ operator:
 gazer:
   create: true
   image:
-    repository: ghcr.io/Monitoring-Projects/lazy-koala/gazer
+    repository: ghcr.io/monitoring-projects/lazy-koala/gazer
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"
 
   initImage:
-    repository: ghcr.io/Monitoring-Projects/lazy-koala/gazer
+    repository: ghcr.io/monitoring-projects/lazy-koala/gazer
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "init"
@@ -159,7 +159,7 @@ gazer:
 sherlock:
   create: true
   image:
-    repository: ghcr.io/Monitoring-Projects/lazy-koala/sherlock
+    repository: ghcr.io/monitoring-projects/lazy-koala/sherlock
     pullPolicy: IfNotPresent
     tag: "latest"
 
@@ -231,7 +231,7 @@ sherlock:
 inspector:
   create: true
   image:
-    repository: ghcr.io/Monitoring-Projects/lazy-koala/inspector
+    repository: ghcr.io/monitoring-projects/lazy-koala/inspector
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"

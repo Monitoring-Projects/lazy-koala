@@ -1,4 +1,4 @@
-module github.com/Monitoring-Projects/LazyKoala/proxy
+module github.com/monitoring-projects/LazyKoala/proxy
 
 go 1.18
 

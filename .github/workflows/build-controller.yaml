@@ -8,7 +8,7 @@ on:
       - 'control-plane/**'
 
 env:
-  IMAGE_NAME: ghcr.io/Monitoring-Projects/lazy-koala/controller
+  IMAGE_NAME: ghcr.io/monitoring-projects/lazy-koala/controller
   DOCKER_BUILDKIT: 1
 
 jobs:
