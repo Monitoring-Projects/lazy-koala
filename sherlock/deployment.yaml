@@ -38,17 +38,17 @@ spec:
           name: model-poller
           imagePullPolicy: IfNotPresent
           env:
-          - name: BUCKET_NAME
-            value: sherlock.isala.me
+            - name: BUCKET_NAME
+              value: sherlock.isala.me
           command:
-          - /bin/bash
-          - -ce
-          - |-
+            - /bin/bash
+            - -ce
+            - |-
               mkdir -p models
               while true; do gsutil -m rsync -d -r gs://$BUCKET_NAME models; sleep 60; done
           volumeMounts:
-          - name: model-files
-            mountPath: /models
+            - name: model-files
+              mountPath: /models
         - name: serving
           image: tensorflow/serving
           imagePullPolicy: IfNotPresent

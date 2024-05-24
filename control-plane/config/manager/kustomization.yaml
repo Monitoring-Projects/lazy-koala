@@ -1,6 +1,6 @@
 resources:
-- manager.yaml
-- configmap.yaml
+  - manager.yaml
+  - configmap.yaml
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -8,6 +8,6 @@ generatorOptions:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: controller
-  newName: ghcr.io/Monitoring-Projects/lazy-koala/controller
-  newTag: latest
+  - name: controller
+    newName: ghcr.io/Monitoring-Projects/lazy-koala/controller
+    newTag: latest
